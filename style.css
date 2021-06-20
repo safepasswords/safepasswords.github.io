@@ -1,0 +1,118 @@
+@font-face {
+    font-family: lobster;
+    src: url(Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(Poppins-SemiBold.ttf);
+}
+#title{
+    border-radius: 20px;
+    background: #222020;
+    box-shadow:  17px 17px 34px #070707,
+              -17px -17px 34px #151515;
+    max-width: 90vw;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family:lobster;
+    color:#2069e0;
+    font-size: 70px;
+}
+h3{
+    text-align: center;
+    color: #2069e0;
+    font-size: 30px;
+    font-family: lobster;
+}
+.meme{
+    border-radius: 20px;
+    background: #0e0e0e;
+    box-shadow:  17px 17px 34px #070707,
+              -17px -17px 34px #151515;
+    width: 90vw;
+    margin: auto;
+    padding: 30px;
+    font-weight: 500;
+    font-family: serif;
+}
+.meme-image{
+    border-radius: 10px
+}
+body{
+    background: #141414; 
+    color: whitesmoke;
+}
+.custom-btn {
+    padding: 10px 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all .3s ease;
+    position: relative;
+    margin: auto;
+    display: inline-block;
+    font: 22px poppins;
+    margin: 30px auto;
+}
+.btn-1 {
+    display:block;
+    border: none;
+    color: #2069e0;
+    border-radius: 15px;
+    font-size: xx-large;
+    background: #141414;
+    box-shadow:  9px 9px 18px #090909,
+                 -9px -9px 18px #0f0f0f;
+}
+.btn-1:active{
+    background: #141414;
+    box-shadow: inset 9px 9px 18px #090909,
+                inset -9px -9px 18px #0f0f0f;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #a0c41f; 
+}
+ul{
+    font-size: large;
+}
+h1{
+    background-color: #2069e0;
+    padding: 20px;
+    font-family: serif;
+    font-size: 40px;
+    max-width: 90vw;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow:  17px 17px 34px #070707,
+    -17px -17px 34px #151515;
+}
+.underline{
+    padding-bottom: 2px;
+    border-bottom: 3px dashed #c91560;
+}
+.warning{
+    width: 60vw;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px auto;
+    font-size: large;
+    font-family: poppins;
+    background:rgb(255, 169, 10);
+    border:1px solid rgb(0, 0, 0);
+}
+.wrn{
+    font-family: poppins;
+}
+.full{
+    padding: 10px;
+    font-family: lobster;
+    font-size: 30px;
+    width: 80vw;
+    margin:20px auto;
+    border: 3px dashed #c91560;
+}
