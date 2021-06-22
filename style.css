@@ -72,22 +72,19 @@ img{
 @media only screen and (max-width: 1200px){
     #meme-box{
         flex-flow: column wrap;
-        width: 75vw;
+        width: 90vw;
     }
     .meme-caption{
         max-width: 100%;
         margin: auto;
-    }
-    .btn-1{
-        font: 2vh poppins;
     }
     .warning{
         min-width: 90vw;
     }
 }
 body{
-    background: #141414; 
-    color: whitesmoke;
+    background: #1d1c1c; 
+    color: #e7d8d8;
 }
 .btn-1 {
     font: calc(1em + 1vw) poppins;
